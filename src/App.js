@@ -1,6 +1,9 @@
 import "./App.css";
 import Header from "./Header";
 import WelcomeBack from "./WelcomeBack";
+import Greeting from "./Greeting";
+import ToDo from "./ToDo";
+import Inventory from "./Inventory";
 import Footer from "./Footer";
 
 // function App() {
@@ -31,6 +34,10 @@ function App() {
       <Header />
         <WelcomeBack name="Molly" adjective="anxious" country="Norway"/>
         <WelcomeBack />
+        <Greeting lang="fr" />
+        <Greeting lang="es" />
+        <ToDo />
+        <Inventory />
       <Footer />
     </>
   );
