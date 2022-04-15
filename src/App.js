@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./Header";
 import WelcomeBack from "./WelcomeBack";
 import Greeting from "./Greeting";
+import Quote from "./Quote";
 import ToDo from "./ToDo";
 import Inventory from "./Inventory";
 import Footer from "./Footer";
@@ -26,7 +27,10 @@ import Footer from "./Footer";
 // }
 
 
-
+const quote = {
+  text: "Goodbye Winnie!",
+  author: "Muriel F. Haggerty",
+};
 
 function App() {
   return (
@@ -36,6 +40,7 @@ function App() {
         <WelcomeBack />
         <Greeting lang="fr" />
         <Greeting lang="es" />
+        <Quote quote={quote} />
         <ToDo />
         <Inventory />
       <Footer />
