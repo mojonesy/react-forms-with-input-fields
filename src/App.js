@@ -1,9 +1,13 @@
 import "./App.css";
-
+import SubscriberForm from "./SubscriberForm";
 
 
 function App() {
-  return <SubscriberFrom />;
+  return (
+    <div>
+      <SubscriberForm />
+    </div>
+  );
 }
 
 
